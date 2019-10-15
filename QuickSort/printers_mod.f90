@@ -8,7 +8,7 @@
    ! all three procedures accordingly.
    
    module printers_mod
-   use quicksort_mod, only  : DP, SP
+   use accuracy_mod
    
    implicit none
    private
