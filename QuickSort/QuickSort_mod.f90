@@ -7,15 +7,11 @@
    ! all three procedures accordingly.
    
    module quicksort_mod
-   
+   use accuracy_mod
    implicit none
    private
    
-   integer, parameter         :: SP = kind(1.0)
-   integer, parameter         :: DP = kind(1.d0)
-   
    public :: QuickSort
-   public :: SP, DP
    
    interface QuickSort
    procedure :: QSort_int, QSort_real, QSort_dp
