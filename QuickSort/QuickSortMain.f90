@@ -1,6 +1,7 @@
 
    !> Testing QuickSort Module
    program quicksort_test
+   use accuracy_mod
    use QuickSort_mod
    use printers_mod
    
